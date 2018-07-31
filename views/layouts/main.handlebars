@@ -2,22 +2,17 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-		<link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<title>Web Scraper</title>
 </head>
 
 <body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<header>
 		<h1 >Web Scraper</h1>
 		<form action="/scrape" method="GET">
 			<button type="submit" id="refresh-articles">Scrape
 		</form>
 	</header>
-	<div id="container">
 		{{{ body }}}
-	</div>
-	
-	<script src="app.js"></script>
 </body>
 </html>

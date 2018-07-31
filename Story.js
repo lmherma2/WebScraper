@@ -4,15 +4,12 @@ var Schema = mongoose.Schema;
 var Storyschema = new Schema({
 	title: {
 		type: String,
-		required: true,
 	},
 	link: {
 		type: String,
-		required: true,
 	},
 	summary: {
 		type: String,
-		default: "Summary unavailable."
 	},
 });
 

@@ -9,7 +9,7 @@ var request = require("request");
 var exphbs = require("express-handlebars");
 
 
-var Story = require("./Story");
+var Story = require("./publick/Story");
 var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/bbaba";
 
 
